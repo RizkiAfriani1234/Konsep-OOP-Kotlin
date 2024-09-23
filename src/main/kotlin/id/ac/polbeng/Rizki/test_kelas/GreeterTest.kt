@@ -1,6 +1,6 @@
 package id.ac.polbeng.Rizki.test_kelas
 
-fun main(args: Array<String>) {
+fun main() {
     val greeter = Greeter()
     greeter.greet()
 }

@@ -1,7 +1,14 @@
 package id.ac.polbeng.Rizki.test_kelas
 
 class Greeter {
-    fun greet(){
-        println("Hello object world")
+    var text: String = ""
+    fun greet() {
+        println("Hello object world!")
+    }
+    fun greet(name: String) {
+        println("$text $name")
+    }
+    fun  with_ret_val(name:String): String{
+        return "$text $name"
     }
 }
