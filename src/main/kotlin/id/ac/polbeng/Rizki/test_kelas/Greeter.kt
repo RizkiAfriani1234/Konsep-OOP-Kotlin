@@ -1,6 +1,6 @@
 package id.ac.polbeng.Rizki.test_kelas
 
-fun main(args: Array<String>) {
+class Greeter {
     fun greet(){
         println("Hello object world")
     }
